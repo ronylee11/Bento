@@ -77,9 +77,9 @@ const CONFIG = {
     },
     {
       id: "5",
-      name: "Reddit",
+      name: "Hackertab",
       icon: "glasses",
-      link: "https://reddit.com",
+      link: "https://now.hackertab.dev/",
     },
     {
       id: "6",
