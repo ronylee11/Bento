@@ -361,3 +361,13 @@ body {
     padding-right: 100px;
   }
 }
+
+.rainbow-text {
+  background: linear-gradient(to right, white , #4285F4, #EA4335, #FBBC05, #34A853, white); /* start and end useless */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border: 1px solid transparent;
+  border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+  border-image-slice: 1;
+  border-image-radius: 20px;
+}
