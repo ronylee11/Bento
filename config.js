@@ -243,5 +243,5 @@ search_google.addEventListener("click", () => {
 const search_youtube = document.querySelector("#search_youtube");
 search_youtube.addEventListener("click", () => {
     const search = document.querySelector("#search").value;
-    window.location.href(`https://www.youtube.com/results?search_query=${search}`);
+    window.location.href = `https://www.youtube.com/results?search_query=${search}`;
 });
